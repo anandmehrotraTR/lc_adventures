@@ -15,7 +15,7 @@ class Solution {
                         profit = dp[i+1][j+1][0] + prices[i];
                     }
                     dp[i][j][h] = Math.max(profit, dp[i+1][j][h]);
-                    System.out.println(dp[i][j][h]);
+                 //   System.out.println(dp[i][j][h]);
                 }
             }
         }
